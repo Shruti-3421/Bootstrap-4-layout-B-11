@@ -53,15 +53,25 @@
 
 
 /* .....css for homeParallax section....... */
-.homeParallax{
-    /* background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/lights.jpg); */
-    background-image: url(../images/lights.jpg);
+
+.parallax{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    position: relative;
 }
- 
+
+.homeParallax{
+    /* background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/lights.jpg); */
+    /* position: relative; */
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/lights.jpg);
+}
+
+.video{
+   background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/media.jpg);
+}
+
+
+/*  
 .homeParallax::before{
     content:'';
     position: absolute;
@@ -70,10 +80,13 @@
     background-color: rgba(0, 0, 0, .7);
     top: 0;
     left:0; 
+} */
+
+.homeGallary img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
-
-
-
 
 
 
